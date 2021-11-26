@@ -142,8 +142,6 @@ api_key = '' # BINANCE API KEY
 api_secret = '' # BINANCE SECRET KEY
 
 pairs = ['AVAXUSDT', 'ETHUSDT', 'DOTUSDT', 'SOLUSDT', 'CHZUSDT', 'ADAUSDT', 'THETAUSDT', 'SANDUSDT', 'MATICUSDT']
-winRate = .002
-loseRate = 0.998
 
 # Connect Api
 client = Client(api_key, api_secret)
